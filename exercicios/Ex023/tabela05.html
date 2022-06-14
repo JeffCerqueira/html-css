@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabeklas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Jeferson</td>
+            <td>M</td>
+            <td>22</td>
+            <td>garçom</td>
+        </tr>
+        <tr>
+            <td>Larissa</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Auxiliar</td>
+        </tr>
+        <tr>
+            <td>George</td>
+            <td>M</td>
+            <td>48</td>
+            <td>Caminhoneiro</td>
+        </tr>
+        <tr>
+            <td>Edna</td>
+            <td>F</td>
+            <td>37</td>
+            <td>Dona de Casa</td>
+        </tr>
+        <tr>
+            <td>Bianca</td>
+            <td>F</td>
+            <td>20</td>
+            <td>Balconista</td>
+        </tr>
+    </table>
+</body>
+</html>
